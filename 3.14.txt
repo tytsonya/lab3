@@ -1,0 +1,4 @@
+for b in range(11):
+    for k in range(21):
+        t = 100 - b - k
+        if 20*b+10*k+t==200: print(b, k, t)
